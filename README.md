@@ -20,11 +20,6 @@ This repository contains the projects I completed so far:
 
 <br/>
 
-<!-- The text field -->
-<input type="text" value="Hello World" id="myInput">
-
-<!-- The button used to copy the text -->
-<button onclick="myFunction()">Copy text</button>
 
 ***Finding Lane Lines: Optional Advanced Video***
 
