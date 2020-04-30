@@ -19,7 +19,7 @@ This repository contains the projects I completed so far:
 
 <br/>
 
-***Finding Lane Lines Optional Advanced Video***
+***Finding Lane Lines: Optional Advanced Video***
 
 <br/>
 <br/>
