@@ -1,6 +1,6 @@
 ![Udacity Banner](Assets/Udacity.png)
 
-# Udacity: Self-Driving Car Nanodegree
+# Self-Driving Car Nanodegree
 
 I recently started the Udacity Self-Driving Car Nanodegree!
 
