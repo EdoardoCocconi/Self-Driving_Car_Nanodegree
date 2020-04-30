@@ -2,7 +2,7 @@
 
 # Self-Driving Car Nanodegree
 
-I recently started the Udacity Self-Driving Car Nanodegree!
+At the end of April 2020 I started the Udacity Self-Driving Car Nanodegree!
 
 This repository contains the projects I completed so far:
 
