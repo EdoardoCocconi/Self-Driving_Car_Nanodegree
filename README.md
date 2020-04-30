@@ -8,7 +8,7 @@ This repository contains the projects I completed so far:
 
 ## Project 1: Finding Lane Lines ##
 - [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%201:%20Finding%20Lane%20Lines/)
-- [Python source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%201:%20Finding%20Lane%20Lines/P1.ipynb).
+- [Python source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%201:%20Finding%20Lane%20Lines/P1.ipynb)
 
 ![Finding Lane Lines Optional Challenge Video](Assets/FindingLaneLines.gif)
 
