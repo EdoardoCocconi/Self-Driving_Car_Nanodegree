@@ -6,9 +6,13 @@ At the end of April 2020 I started the Udacity Self-Driving Car Nanodegree!
 
 This repository contains the projects I completed so far:
 
+<br/>
+
 ## Project 1: Finding Lane Lines ##
 - [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%201:%20Finding%20Lane%20Lines/)
 - [Python source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%201:%20Finding%20Lane%20Lines/P1.ipynb)
+
+<br/>
 
 ![Finding Lane Lines Optional Challenge Video](Assets/FindingLaneLines.gif)
 
