@@ -21,7 +21,7 @@ This repository contains the projects I completed so far:
 <br/>
 
 
-***Finding Lane Lines: Optional Advanced Video***
+***Finding lane lines regardless of color***
 
 <br/>
 <br/>
