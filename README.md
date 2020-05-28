@@ -35,15 +35,15 @@ This repository contains the projects I completed so far:
 
 <br/>
 
+<div align="center">
+  <img src="Assets/AdvancedLaneLines.gif" alt="Advanced lane finding output video">
+</div>
 
+<br>
 
-
-![Finding Lane Lines Optional Challenge Video](Assets/AdvancedLaneLines.gif)
-
-<br/>
-
-
-***Lane detection regardless of turns and lighting conditions***
+<p align="center">
+  <b><i>Lane detection regardless of turns and lighting conditions</i></b>
+</p>
 
 <br/>
 <br/>
