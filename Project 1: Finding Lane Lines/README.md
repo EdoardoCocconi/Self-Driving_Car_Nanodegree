@@ -1,7 +1,7 @@
 # **Finding Lane Lines on the Road** 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-<img src="Assets/FindingLaneLines.gif" alt="Finding lane lines output video" />
+<img src="master/Assets/FindingLaneLines.gif" alt="Finding lane lines output video" />
 
 Overview
 ---
