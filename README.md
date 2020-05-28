@@ -16,12 +16,15 @@ This repository contains the projects I completed so far:
 
 <br/>
 
-![Finding Lane Lines Optional Challenge Video](Assets/FindingLaneLines.gif)
+<div align="center">
+  <img src="Assets/FindingLaneLines.gif" alt="Finding lane lines output video">
+</div>
 
-<br/>
+<br>
 
-
-***Finding lane lines regardless of color***
+<p align="center">
+  <b><i>Finding lane lines regardless of color</i></b>
+</p>
 
 <br>
 
@@ -31,6 +34,9 @@ This repository contains the projects I completed so far:
 - [Python source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%202:%20Advanced%20Lane%20Finding/video_generator.py)
 
 <br/>
+
+
+
 
 ![Finding Lane Lines Optional Challenge Video](Assets/AdvancedLaneLines.gif)
 
