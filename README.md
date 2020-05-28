@@ -33,7 +33,7 @@ This repository contains the projects I completed so far:
 
 <br/>
 
-![Finding Lane Lines Optional Challenge Video](Assets/FindingLaneLines.gif)
+![Finding Lane Lines Optional Challenge Video](Assets/AdvancedLaneLines.gif)
 
 <br/>
 
