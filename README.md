@@ -44,4 +44,4 @@ This repository contains the projects I completed so far:
 <br/>
 <br/>
 
-> *©  2019  Edoardo  M.  Cocconi  All  Rights  Reserved*
+> *©  2020  Edoardo  M.  Cocconi  All  Rights  Reserved*
