@@ -42,7 +42,7 @@ This repository contains the projects I completed so far:
 <br>
 
 <p align="center">
-  <b><i>Lane detection regardless of turns and lighting conditions</i></b>
+  <b><i>Detecting lanes regardless of turns and lighting conditions</i></b>
 </p>
 
 <br/>
