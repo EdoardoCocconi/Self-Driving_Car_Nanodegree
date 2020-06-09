@@ -3,7 +3,9 @@
 
 <br>
 
-![Lane Finding Video](./Assets/LaneFinding.gif)
+<div align="center">
+  <img src="Assets/LaneFinding.gif" alt="Lane Finding Video">
+</div>
 
 <br>
 
