@@ -175,7 +175,7 @@ The lines of code responsible for calculating these quantities start at line 221
 <br>
 
 <div align="center">
-  <img width="200" src="Assets/Curvature.JPG" alt="Lane identification">
+  <img width="400" src="Assets/Curvature.JPG" alt="Lane identification">
 </div>
 
 <br>
