@@ -1,6 +1,7 @@
-![Udacity Banner](Assets/Udacity.png)
-
 # Self-Driving Car Nanodegree
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
+
+<br/>
 
 At the end of April 2020 I started the Udacity Self-Driving Car Nanodegree!
 
