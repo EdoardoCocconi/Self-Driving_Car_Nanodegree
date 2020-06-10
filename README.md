@@ -9,10 +9,10 @@ This repository contains the projects I completed so far:
 <br/>
 
 ## Project 1: Finding Lane Lines ##
-- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/roject%201%20-%20Finding%20Lane%20Lines/)
-- [Python source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%201:%20Finding%20Lane%20Lines)
-- [Output videos](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%201:%20Finding%20Lane%20Lines/test_videos_output)
-- To access the interactive features of the jupyter notebook click [here](https://nbviewer.jupyter.org/github/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%201%3A%20Finding%20Lane%20Lines/P1.ipynb)
+- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%201%20-%20Finding%20Lane%20Lines)
+- [Python source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%201%20-%20Finding%20Lane%20Lines/Project1.ipynb)
+- [Output videos](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%201%20-%20Finding%20Lane%20Lines/test_videos_output)
+- To access the interactive features of the jupyter notebook click [here](https://nbviewer.jupyter.org/github/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%201%20-%20Finding%20Lane%20Lines/Project1.ipynb)
 
 <br/>
 
@@ -30,8 +30,8 @@ This repository contains the projects I completed so far:
 
 ## Project 2: Advanced Lane Finding ##
 
-- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%202:%20Advanced%20Lane%20Finding)
-- [Python source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%202:%20Advanced%20Lane%20Finding/video_generator.py)
+- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%202%20-%20Advanced%20Lane%20Finding)
+- [Python source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%202%20-%20Advanced%20Lane%20Finding/Lane_Finder_Video.py)
 
 <br/>
 
