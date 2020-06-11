@@ -12,9 +12,8 @@ In this project lane lines are detected using Python and OpenCV.  OpenCV means "
 
 ## The Lines-Finding Pipeline
 
-The lines-finding pipeline consists of 7 steps.  
+The lines-finding pipeline consists of 6 steps.  
 * Convert the images to grayscale
-* Perform a gaussian blur to filter out noise
 * Perform a gaussian blur to filter out noise
 * Detect edges with Canny
 * Keep only the edges in the region of interest. The region of interest is the portion of the frame where lane lines are expected.
