@@ -13,8 +13,6 @@
   <b><i>Line-Finding Algorithm</i></b>
 </p>
 
-<br>
-
 Overview
 ---
 
