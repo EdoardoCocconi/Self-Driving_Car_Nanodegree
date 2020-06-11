@@ -27,12 +27,12 @@ In this project lane lines are detected using Python and OpenCV.  OpenCV means "
 ## The Lines-Finding Pipeline
 
 The lines-finding pipeline consists of 6 steps.  
-* Convert the images to grayscale
-* Perform a gaussian blur to filter out noise
-* Detect edges with Canny
-* Keep only the edges in the region of interest. The region of interest is the portion of the frame where lane lines are expected.
-* Find straight lines with Hough Transform.
-* Extrapolate 2 lines to highlight the left and right boundary of the roadway.
+1. Convert the images to grayscale
+1. Perform a gaussian blur to filter out noise
+1. Detect edges with Canny
+1. Keep only the edges in the region of interest. The region of interest is the portion of the frame where lane lines are expected.
+1. Find straight lines with Hough Transform.
+1. Extrapolate 2 lines to highlight the left and right boundary of the roadway.
 
 <br>
 
