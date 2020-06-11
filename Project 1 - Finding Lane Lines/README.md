@@ -10,7 +10,7 @@
 <br>
 
 <p align="center">
-  <b><i>Lines-Finding Algorithm</i></b>
+  <b><i>Line-Finding Algorithm</i></b>
 </p>
 
 <br>
@@ -41,7 +41,7 @@ The lines-finding pipeline consists of 6 steps.
 <br>
 
 <p align="center">
-  <b><i>Lines-Finding Pipeline Output</i></b>
+  <b><i>Line-Finding Pipeline Output</i></b>
 </p>
 
 <br>
