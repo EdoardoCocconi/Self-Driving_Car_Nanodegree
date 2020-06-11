@@ -10,7 +10,7 @@ When we drive, we use our eyes to decide where to go.  The lines on the road tha
 
 In this project lane lines are detected using Python and OpenCV.  OpenCV means "Open-Source Computer Vision".
 
-### 1. The Lines-Finding Pipeline
+## The Lines-Finding Pipeline
 
 The lines-finding pipeline consists of 7 steps.  
 * Convert the images to grayscale
@@ -31,7 +31,7 @@ In order to draw a single line on the left and right lanes, the draw_lines() fun
 * The starting point of the lines is the bottom of the frame.
 * The end-point of the lines is the further point detected inside the region of interest. This value is prone to noise so its value is averaged through the last 15 runs.
 
-### 2. Potential Shortcomings of the Current Pipeline
+## Potential Shortcomings of the Current Pipeline
 
 * If the color of the line is too similar to the color of the asphalt. The line is not detected.
 * Sharp turns would result in a very short line. Curves have not been modelled in this project.
@@ -39,7 +39,7 @@ In order to draw a single line on the left and right lanes, the draw_lines() fun
 * It is not possible to change lane. During the transition the slopes would assume values outside the ones used as thresholds.
 * If another car enters the area that is expected to be occupied by lanes the pipeline would not recognize them anymore and loose stability.  
 
-### 3. Possible Pipeline Improvements
+## Possible Pipeline Improvements
 
 * A possible improvement would be to average not only the y-coordinate of the top point of the line, but also the slope of the lines over a number of runs.
 * The pipeline could be improved to account for curves as in the advanced lane-finding project. 
