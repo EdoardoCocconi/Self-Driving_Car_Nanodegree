@@ -32,7 +32,8 @@ This repository contains the projects I completed so far:
 ## Project 2: Advanced Lane Finding ##
 
 - [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%202%20-%20Advanced%20Lane%20Finding)
-- [Python source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%202%20-%20Advanced%20Lane%20Finding/Lane_Finder_Video.py)
+- [Python lane-finding source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%202%20-%20Advanced%20Lane%20Finding/Lane_Finder_Video.py)
+- [Python camera calibration source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%202%20-%20Advanced%20Lane%20Finding/Camera_Calibration.py)
 
 <br/>
 
