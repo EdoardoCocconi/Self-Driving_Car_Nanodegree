@@ -48,6 +48,25 @@ This repository contains the projects I completed so far:
 </p>
 
 <br/>
+
+## Project 3: Traffic Sign Classifier (Machine Learning) ##
+
+- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%203%20-%20Traffic%20Sign%20Classifier)
+- [Jupyter Notebook](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%203%20-%20Traffic%20Sign%20Classifier/Traffic_Sign_Classifier.ipynb)
+
+<br/>
+
+<div align="center">
+  <img src="Assets/TrafficSign.gif" alt="Traffic sign classifier video">
+</div>
+
+<br>
+
+<p align="center">
+  <b><i>Traffic sign classifier example and convolutional neural network animation</i></b>
+</p>
+
+<br/>
 <br/>
 <br/>
 
