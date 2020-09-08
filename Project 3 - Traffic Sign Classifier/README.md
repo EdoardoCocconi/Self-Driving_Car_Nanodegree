@@ -1,12 +1,22 @@
 ## Project: Traffic Sign Recognition Algorithm
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
+<div align="center">
+  <img src="Assets/TrafficSign.gif" alt="Traffic sign classifier video">
+</div>
+
+<br>
+
+<p align="center">
+  <b><i>Traffic sign classifier example and Convolutional Neural Network animation</i></b>
+</p>
+
 Overview
 ---
 In this project, I used what I've learned about deep neural networks and convolutional neural networks to classify traffic signs. A model has been trained and validated so it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model was trained, I tried it out on images of German traffic signs that I find on the web.
 
 The project is composed by three main files: 
-* The Ipython notebook with the code
+* The Ipython notebook containing the source code
 * The code exported as an html file
 * A writeup report contained in this README 
 

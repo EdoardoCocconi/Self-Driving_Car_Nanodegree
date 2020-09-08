@@ -63,7 +63,7 @@ This repository contains the projects I completed so far:
 <br>
 
 <p align="center">
-  <b><i>Traffic sign classifier example and convolutional neural network animation</i></b>
+  <b><i>Traffic sign classifier example and Convolutional Neural Network animation</i></b>
 </p>
 
 <br/>
