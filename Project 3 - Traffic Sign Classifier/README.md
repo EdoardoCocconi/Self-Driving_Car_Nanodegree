@@ -37,7 +37,7 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how many images there are for each kind of traffic sign.
 
-![alt text](Assets/Visualize Dataset.png)
+![alt text](Assets/VisualizeDataset.png)
 
 The example image below has been randomly picked from the set of training images.
 
