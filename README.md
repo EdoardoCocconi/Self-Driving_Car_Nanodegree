@@ -76,7 +76,7 @@ This repository contains the projects I completed so far:
 <br/>
 
 <div align="center">
-  <img width="650" img src="Assets/BehavioralCloning.gif" alt="Behavioral cloning video">
+  <img width="630" img src="Assets/BehavioralCloning.gif" alt="Behavioral cloning video">
 </div>
 
 <br>
