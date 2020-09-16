@@ -1,7 +1,7 @@
 # **Behavioral Cloning** 
 
 <div align="center">
-  <img src="Assets/OutputVideo.gif" alt="Behavioral cloning output video">
+  <img width="640" img src="Assets/OutputVideo.gif" alt="Behavioral cloning output video">
 </div>
 
 The project follows these steps:
