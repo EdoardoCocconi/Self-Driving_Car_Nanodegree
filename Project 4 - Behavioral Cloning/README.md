@@ -1,8 +1,12 @@
 # **Behavioral Cloning** 
 
+<br>
+
 <div align="center">
   <img width="640" img src="Assets/OutputVideo.gif" alt="Behavioral cloning output video">
 </div>
+
+<br>
 
 The project follows these steps:
 * Using the simulator to collect data of good driving behavior.
