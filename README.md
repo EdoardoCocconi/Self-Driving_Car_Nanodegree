@@ -67,6 +67,25 @@ This repository contains the projects I completed so far:
 </p>
 
 <br/>
+
+## Project 4: Behavioral Cloning (Machine Learning) ##
+
+- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%204%20-%20Behavioral%20Cloning)
+- [Python Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%204%20-%20Behavioral%20Cloning/Behavioral_Cloning.py)
+
+<br/>
+
+<div align="center">
+  <img src="Assets/BehavioralCloning.gif" alt="Behavioral cloning video">
+</div>
+
+<br>
+
+<p align="center">
+  <b><i>The vehicle is able to complete a full lap around the track in autonomous mode</i></b>
+</p>
+
+<br/>
 <br/>
 <br/>
 

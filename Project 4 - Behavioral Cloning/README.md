@@ -1,5 +1,9 @@
 # **Behavioral Cloning** 
 
+<div align="center">
+  <img src="Assets/OutputVideo.gif" alt="Behavioral cloning output video">
+</div>
+
 The project follows these steps:
 * Using the simulator to collect data of good driving behavior.
 * Building a convolution neural network in Keras that predicts steering angles from images.

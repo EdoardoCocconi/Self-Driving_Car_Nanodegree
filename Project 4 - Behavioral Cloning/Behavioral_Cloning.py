@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 print("RUNNING")
-STEERING_COEFFICIENT = 0.23
+STEERING_CORRECTION = 0.23
 
 lines = []
 with open('./data/driving_log.csv') as csvfile:
@@ -24,8 +24,8 @@ for line in lines:
 		images.append(image)
 	measurement = float(line[3])
 	measurements.append(measurement)
-	measurements.append(measurement + STEERING_COEFFICIENT)
-	measurements.append(measurement - STEERING_COEFFICIENT)
+	measurements.append(measurement + STEERING_CORRECTION)
+	measurements.append(measurement - STEERING_CORRECTION)
 	
 
 augmented_images, augmented_measurements = [], []
@@ -40,7 +40,7 @@ image_shape = X_train[0].shape
 y_train = np.array(augmented_measurements)
 
 from keras.models import Sequential
-from keras.layers import Flatten, Dense, Lambda, Cropping2D, Activation
+from keras.layers import Flatten, Dense, Lambda, Cropping2D
 from keras.layers import Convolution2D
 from keras.layers import MaxPooling2D
 from keras.layers import Dropout
