@@ -65,7 +65,7 @@ RMSE Dataset 1 		    | RMSE Dataset 2               					|
 | 0.5575          		| 0.5870                   						| 
 | 0.6567          		| 0.7380                   						|
 
-None of the sensors alone is enough to generate estimates that respect the tolerances imposed by the project.
+None of the sensors alone is enough to generate estimates that respect the tolerances.
 
 ## Running the Extended Kalman Filter on your Machine
 
