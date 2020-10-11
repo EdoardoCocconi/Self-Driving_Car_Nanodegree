@@ -87,8 +87,9 @@ This repository contains the projects I completed so far:
 
 ## Project 5: Extended Kalman Filters (Sensor Fusion) ##
 
-- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%204%20-%20Behavioral%20Cloning)
-- [Python Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%204%20-%20Behavioral%20Cloning/Behavioral_Cloning.py)
+- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%205%20-%20Extended%20Kalman%20FIlters)
+- [C++ Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%205%20-%20Extended%20Kalman%20FIlters/src)
+- [Kalman Filters Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%205%20-%20Extended%20Kalman%20FIlters/src/main.cpp)
 
 <br/>
 
@@ -99,7 +100,7 @@ This repository contains the projects I completed so far:
 <br>
 
 <p align="center">
-  <b><i>The vehicle is able to complete a full lap around the track in autonomous mode</i></b>
+  <b><i>The Kalman filter fuses laser and radar data (red and blue) to determine the position of the vehicle (green).</i></b>
 </p>
 
 
