@@ -22,6 +22,8 @@ Tolerances     		    |    	                      					|
 | RMSE x velocity  		| 052                     						| 
 | RMSE y velocity  		| 052                     						| 
 
+<br>
+
 ## Dependencies
 
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases).
