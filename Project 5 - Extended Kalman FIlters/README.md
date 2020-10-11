@@ -32,7 +32,7 @@ Tolerances     		    |    	                      					|
 
 ## Results WITH Sensor Fusion
 
-In this section laser and radar data have been fused to produce position and velocity estimates. Fusing laser and radar data simply means that both of them have been trigger a prediction and measurement update. Running the extended kalman filter on dataset 1 and 2 yielded the following results for the RMSE:
+In this section laser and radar data have been fused to produce position and velocity estimates. Fusing laser and radar data simply means that both of them trigger a prediction and measurement update. Running the extended kalman filter on dataset 1 and 2 yielded the following results for the RMSE:
 
 RMSE Dataset 1 		    | RMSE Dataset 2               					| 
 |:---------------------:|:---------------------------------------------:| 
