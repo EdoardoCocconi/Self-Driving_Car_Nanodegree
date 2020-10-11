@@ -85,6 +85,24 @@ This repository contains the projects I completed so far:
   <b><i>The vehicle is able to complete a full lap around the track in autonomous mode</i></b>
 </p>
 
+## Project 5: Extended Kalman Filters (Sensor Fusion) ##
+
+- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%204%20-%20Behavioral%20Cloning)
+- [Python Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%204%20-%20Behavioral%20Cloning/Behavioral_Cloning.py)
+
+<br/>
+
+<div align="center">
+  <img width="640" img src="Assets/KalmanFilters.gif" alt="Extended Kalman filters video">
+</div>
+
+<br>
+
+<p align="center">
+  <b><i>The vehicle is able to complete a full lap around the track in autonomous mode</i></b>
+</p>
+
+
 <br/>
 <br/>
 <br/>
