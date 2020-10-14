@@ -85,6 +85,8 @@ This repository contains the projects I completed so far:
   <b><i>The vehicle is able to complete a full lap around the track in autonomous mode</i></b>
 </p>
 
+<br/>
+
 ## Project 5: Extended Kalman Filters (Sensor Fusion) ##
 
 - [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%205%20-%20Extended%20Kalman%20FIlters)
