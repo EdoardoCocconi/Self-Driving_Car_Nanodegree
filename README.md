@@ -18,7 +18,7 @@ This repository contains the projects I completed so far:
 <br/>
 
 <div align="center">
-  <img src="Assets/FindingLaneLines.gif" alt="Finding lane lines output video">
+  <img width="640" img src="Assets/FindingLaneLines.gif" alt="Finding lane lines output video">
 </div>
 
 <br>
@@ -38,7 +38,7 @@ This repository contains the projects I completed so far:
 <br/>
 
 <div align="center">
-  <img src="Assets/AdvancedLaneLines.gif" alt="Advanced lane finding output video">
+  <img width="640" img src="Assets/AdvancedLaneLines.gif" alt="Advanced lane finding output video">
 </div>
 
 <br>
@@ -57,7 +57,7 @@ This repository contains the projects I completed so far:
 <br/>
 
 <div align="center">
-  <img src="Assets/TrafficSign.gif" alt="Traffic sign classifier video">
+  <img width="640" img src="Assets/TrafficSign.gif" alt="Traffic sign classifier video">
 </div>
 
 <br>
