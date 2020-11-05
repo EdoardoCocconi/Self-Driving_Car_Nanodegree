@@ -105,6 +105,25 @@ This repository contains the projects I completed so far:
   <b><i>The Kalman filter fuses laser and radar data (red and blue) to determine the position of the vehicle (green).</i></b>
 </p>
 
+<br/>
+
+## Project 6: Kidnapped Vehicle (Localisation) ##
+
+- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%202%20-%20Advanced%20Lane%20Finding)
+- [Python lane-finding source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%202%20-%20Advanced%20Lane%20Finding/Lane_Finder_Video.py)
+- [Python camera calibration source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%202%20-%20Advanced%20Lane%20Finding/Camera_Calibration.py)
+
+<br/>
+
+<div align="center">
+  <img width="640" img src="Assets/KidnappedVehicle.gif" alt="Advanced lane finding output video">
+</div>
+
+<br>
+
+<p align="center">
+  <b><i>Detecting lanes regardless of turns and lighting conditions</i></b>
+</p>
 
 <br/>
 <br/>

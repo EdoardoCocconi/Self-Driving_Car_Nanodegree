@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/OneDrive - The University of Nottingham/Edo/United Kingdom/Udacity/Self-Driving Car Nanodegree/Project 6 - Kidnapped Vehicle/src/helper_functions.h
+math.h
+-
+fstream
+-
+sstream
+-
+string
+-
+vector
+-
+map.h
+/mnt/d/OneDrive - The University of Nottingham/Edo/United Kingdom/Udacity/Self-Driving Car Nanodegree/Project 6 - Kidnapped Vehicle/src/map.h
+
+/mnt/d/OneDrive - The University of Nottingham/Edo/United Kingdom/Udacity/Self-Driving Car Nanodegree/Project 6 - Kidnapped Vehicle/src/map.h
+vector
+-
+
+/mnt/d/OneDrive - The University of Nottingham/Edo/United Kingdom/Udacity/Self-Driving Car Nanodegree/Project 6 - Kidnapped Vehicle/src/particle_filter.cpp
+random
+-
+algorithm
+-
+iostream
+-
+iterator
+-
+particle_filter.h
+/mnt/d/OneDrive - The University of Nottingham/Edo/United Kingdom/Udacity/Self-Driving Car Nanodegree/Project 6 - Kidnapped Vehicle/src/particle_filter.h
+
+/mnt/d/OneDrive - The University of Nottingham/Edo/United Kingdom/Udacity/Self-Driving Car Nanodegree/Project 6 - Kidnapped Vehicle/src/particle_filter.h
+string
+-
+vector
+-
+helper_functions.h
+/mnt/d/OneDrive - The University of Nottingham/Edo/United Kingdom/Udacity/Self-Driving Car Nanodegree/Project 6 - Kidnapped Vehicle/src/helper_functions.h
+

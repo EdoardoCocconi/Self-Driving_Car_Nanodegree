@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/mnt/d/OneDrive - The University of Nottingham/Edo/United Kingdom/Udacity/Self-Driving Car Nanodegree/Project 6 - Kidnapped Vehicle"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/d/OneDrive - The University of Nottingham/Edo/United Kingdom/Udacity/Self-Driving Car Nanodegree/Project 6 - Kidnapped Vehicle/cmake-build-debug
