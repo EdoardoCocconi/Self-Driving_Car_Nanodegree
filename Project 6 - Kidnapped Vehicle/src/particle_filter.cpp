@@ -157,6 +157,8 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
 
         for (LandmarkObs &map_observation : map_observations) {
             Map::single_landmark_s landmark = map_landmarks.landmark_list[map_observation.id - 1]; // ids start from 1, not 0
+            // The following formula is used to calculate the new weight of the particle based on how well its predictions match with the sensor readings
+            // The formula is explained in the Self-Driving Car Nanodegree by Udacity
             double w = exp(-(pow(map_observation.x - landmark.x_f, 2) / (2 * pow(std_landmark[0], 2)) + pow(map_observation.y - landmark.y_f, 2) / (2 * pow(std_landmark[1], 2)))) / (2 * M_PI * std_landmark[0] * std_landmark[1]);
             particle.weight *= w;
         }

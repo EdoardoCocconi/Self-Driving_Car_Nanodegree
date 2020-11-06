@@ -87,11 +87,11 @@ This repository contains the projects I completed so far:
 
 <br/>
 
-## Project 5: Extended Kalman Filters (Sensor Fusion) ##
+## Project 5: Extended Kalman Filter (Sensor Fusion) ##
 
 - [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%205%20-%20Extended%20Kalman%20FIlters)
 - [C++ Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%205%20-%20Extended%20Kalman%20FIlters/src)
-- [Kalman Filters Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%205%20-%20Extended%20Kalman%20FIlters/src/main.cpp)
+- [Kalman Filter Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%205%20-%20Extended%20Kalman%20FIlters/src/main.cpp)
 
 <br/>
 
@@ -109,9 +109,9 @@ This repository contains the projects I completed so far:
 
 ## Project 6: Kidnapped Vehicle (Localisation) ##
 
-- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%202%20-%20Advanced%20Lane%20Finding)
-- [Python lane-finding source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%202%20-%20Advanced%20Lane%20Finding/Lane_Finder_Video.py)
-- [Python camera calibration source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%202%20-%20Advanced%20Lane%20Finding/Camera_Calibration.py)
+- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%206%20-%20Kidnapped%20Vehicle)
+- [C++ Source Code](https://github.c om/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%206%20-%20Kidnapped%20Vehicle/src)
+- [Particle Filter Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%206%20-%20Kidnapped%20Vehicle/src/main.cpp)
 
 <br/>
 
@@ -122,7 +122,7 @@ This repository contains the projects I completed so far:
 <br>
 
 <p align="center">
-  <b><i>Detecting lanes regardless of turns and lighting conditions</i></b>
+  <b><i>The vehicle determines its own position on the map (blue circle) by observing the surroundings.</i></b>
 </p>
 
 <br/>

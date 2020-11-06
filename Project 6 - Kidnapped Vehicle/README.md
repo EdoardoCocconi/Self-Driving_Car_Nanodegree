@@ -1,7 +1,23 @@
+# **Kidnapped Vehicle** 
+
+<br>
+
+<div align="center">
+  <img width="640" img src="Assets/KidnappedVehicle.gif" alt="Advanced lane finding output video">
+</div>
+
+<br>
+
+<p align="center">
+  <b><i>The vehicle determines its own position on the map (blue circle) by observing the surroundings.</i></b>
+</p>
+
+<br/>
+
 ## Project Introduction
 Our robot has been kidnapped and transported to a new location! Luckily it has a map of this location, a (noisy) GPS estimate of its initial location, and lots of (noisy) sensor and control data.
 
-In this project I implemented a 2 dimensional particle filter in C++. The particle filter is given a map and an initial GPS reading. At each time step the filter also gets observation and control data.
+In this project I implemented a 2 dimensional particle filter in C++. The particle filter is given a map and an initial GPS reading. At each time step the filter gets observations and control data and uses them to determine position and orientation of the vehicle.
 
 ## Running the Code
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
