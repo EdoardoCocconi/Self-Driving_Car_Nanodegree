@@ -8,7 +8,7 @@
 using namespace std;
 
 
-
+// Module explained at Udacity Q&A: https://www.youtube.com/watch?v=-3HI3Iw3Z9g&feature=youtu.be&ab_channel=Udacity
 void ParticleFilter::init(double gps_x, double gps_y, double gps_theta, double std[]) {
     /**
      * Set the number of particles. Initialize all particles to
@@ -39,7 +39,7 @@ void ParticleFilter::init(double gps_x, double gps_y, double gps_theta, double s
 }
 
 
-
+// Module explained at Udacity Q&A: https://www.youtube.com/watch?v=-3HI3Iw3Z9g&feature=youtu.be&ab_channel=Udacity
 void ParticleFilter::prediction(double delta_t, double std_pos[], double velocity, double yaw_rate) {
 
     // Add measurements to each particle and add random Gaussian noise.
