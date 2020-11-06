@@ -110,7 +110,7 @@ This repository contains the projects I completed so far:
 ## Project 6: Kidnapped Vehicle (Localisation) ##
 
 - [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%206%20-%20Kidnapped%20Vehicle)
-- [C++ Source Code](https://github.c om/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%206%20-%20Kidnapped%20Vehicle/src)
+- [C++ Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%206%20-%20Kidnapped%20Vehicle/src)
 - [Particle Filter Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%206%20-%20Kidnapped%20Vehicle/src/main.cpp)
 
 <br/>
