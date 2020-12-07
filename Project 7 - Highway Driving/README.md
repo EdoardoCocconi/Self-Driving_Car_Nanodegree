@@ -1,8 +1,20 @@
 # CarND-Path-Planning-Project
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-Self-Driving Car Engineer Nanodegree Program
-   
+<br>
+
+<div align="center">
+  <img width="640" img src="Assets/HighwayDriving.gif" alt="Highway driving simulation video">
+</div>
+
+<br>
+
+<p align="center">
+  <b><i>The highway autopilot autonomously plans the car route and speed through the traffic.</i></b>
+</p>
+
+<br>
+
 ### Simulator.
 You can download the Term3 Simulator which contains the Path Planning Project from the [releases tab (https://github.com/udacity/self-driving-car-sim/releases/tag/T3_v1.2).  
 
