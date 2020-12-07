@@ -142,7 +142,7 @@ This repository contains the projects I completed so far:
 <br>
 
 <p align="center">
-  <b><i>The highway autopilot autonomously plans the car route and speed through the traffic</i></b>
+  <b><i>The highway autopilot autonomously plans the car route and speed through the traffic.</i></b>
 </p>
 
 <br/>
