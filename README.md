@@ -126,6 +126,26 @@ This repository contains the projects I completed so far:
 </p>
 
 <br/>
+
+## Project 7: Highway Driving (Path Planning) ##
+
+- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%207%20-%20Highway%20Driving)
+- [C++ Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%207%20-%20Highway%20Driving/src)
+- [Highway Autopilot Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%207%20-%20Highway%20Driving/src/main.cpp)
+
+<br/>
+
+<div align="center">
+  <img width="640" img src="Assets/HighwayDriving.gif" alt="Highway driving simulation video">
+</div>
+
+<br>
+
+<p align="center">
+  <b><i>The highway autopilot autonomously plans the car route and speed through the traffic</i></b>
+</p>
+
+<br/>
 <br/>
 <br/>
 
