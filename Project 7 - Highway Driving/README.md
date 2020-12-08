@@ -23,16 +23,16 @@ In this project trajectories and speed are determined by a state machine. The ou
 
 ## State Machine
 
-### GO:
+#### GO:
 This is the state that governs the gas pedal. The car's velocity increases with constant acceleration until the speed limit is reached. If the change lane state previously decided to switch lane, the GO state will accelerate towards the goal lane. So it is possible to change lane while accelerating. This state can lead to the BRAKE state if there is an obstacle or to the CHANGE LANE state if the current lane is not optimal. 
 
-### BRAKE:
+#### BRAKE:
 This is the state that governs the brake. For this project the brak has been chosen to generate a constant deceleration of 4m/s^2. Knowing the deceleration, the speed of the vehicle, the distance to the obstacle, and the speed of the obstacle it is possible to calculate at what distance the car should start braking. The reaction time of the vehicle is properly taken into account by forecasting the future position of the other vehicles. These calculations allow the car to assume the same velocity of the vehicle in front leaving the exact safety distance necessary. if the vehicle in front was to stop, the braking time of our vehicle depends on the square of its speed, so the safety distance is proportional to this quantity. Similarly to the GO state, the BRAKE state can decelerate while changing lane (if the CHANGE LANE state decided to). This is particularly important to dodge cars that change lane without looking if our car is coming from behind. This state can lead to the FOLLOW state if after decelerating our vehicle travels at the same speed of the vehicle in front. It can also lead to the CHANGE LANE state if the current lane is not the optimal lane.
 
-### FOLLOW:
+#### FOLLOW:
 If all the points composing the trajectory were recalculated at every cycle, there would be no need for this state. This state is responsible for maintain the safety distance while keeping the same speed of the vehicle in front. It is theoretically possible to achieve this wit just a GO and a BRAKE state, but the delay in the car reactions makes it oscillate around the safety distance. This state takes therefore a different approach and copies the vehicle in front. This state ends when the car in front of us changes lane and lets us proceed or when our car changes lane.
 
-### CHANGE LANE:
+#### CHANGE LANE:
 This is the state that governs the steering wheel. The steering wheel is not connected to the gas or brake and this could be a state machine on its own. However, a change in lane could be indicative of the fact that the car could get out of its FOLLOW or BRAKE state and get back to the desired speed with the GO state. The CHANGE LANE state works like this:
 * **Calculate the optimal lane:** The optimal lane is always the lane in which the first car encountered by the vehicle would be the farthest (taking into account the speed of the vehicles as well). There are few exceptions since some times a car that is far away will loose ground due to encountering a slow car on its path. However it is almost always the best choice and greatly simplifies calculations.
 * **Check for obstacles:** The car looks for obstacles in the other lanes, specifically cars approaching from behind at high speed or cars in front of us that would be within the safety distance.
