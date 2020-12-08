@@ -16,7 +16,7 @@ using std::vector;
 
 // start in lane 1
 int target_lane = 1;
-// have a reference velocity to taget
+// have a reference velocity to target
 //bool sport = true;
 bool sport = false;
 double ref_vel = 0.0; // mph
@@ -27,8 +27,8 @@ auto begin = std::chrono::high_resolution_clock::now();
 double dt;
 double lanechange_timer;
 double BRAKE_REACTION_TIME = 1.0; //  s
-string state = "go";
-string previous_state = "go";
+string state = "GO";
+string previous_state = "GO";
 double car_x;
 double car_y;
 double prev_car_x;
@@ -128,11 +128,6 @@ int main() {
 
                                 json msgJson;
 
-                                /**
-                                 * TODO: define a path made up of (x,y) points that the car will visit
-                                 *   sequentially every .02 seconds
-                                 */
-
                                 auto end = std::chrono::high_resolution_clock::now();
                                 auto elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin);
                                 dt = std::chrono::duration<double>(elapsed).count();
@@ -148,9 +143,7 @@ int main() {
                                 vector<double> lanes_obstacles = {HUGE_VAL - 1, HUGE_VAL - 1, HUGE_VAL - 1};
                                 lanes_obstacles[target_lane] += 1;
 
-                                // Find ref_v to use
                                 for (int i = 0; i < sensor_fusion.size(); ++i) {
-                                    // Car is in my lane
                                     double vx = sensor_fusion[i][3]; // m/s
                                     double vy = sensor_fusion[i][4]; // m/s
                                     double check_speed = sqrt(vx * vx + vy * vy); // m/s
@@ -183,17 +176,18 @@ int main() {
                                         }
                                     }
 
+                                    // If the car is in my lane
                                     if ((d < (2 + 4 * target_lane + 2)) && (d > (2 + 4 * target_lane - 2))) {
                                         // Check s values greater than mine and s gap
                                         double time = (car_speed_meters - check_speed) / DECELERATION;
-                                        double breaking_distance = car_speed_meters * time - check_speed * time - 0.5 * DECELERATION * time * time + (end_path_s - car_s) + safety_distance;
+                                        double braking_distance = car_speed_meters * time - check_speed * time - 0.5 * DECELERATION * time * time + (end_path_s - car_s) + safety_distance;
                                         if ((check_car_s > car_s) && (check_car_s - car_s) < obstacle_distance) {
                                             obstacle_distance = check_car_s - car_s;
                                             target_speed = check_speed;
                                             target_vehicle = i;
-                                            if ((check_car_s - car_s) < breaking_distance && state == "go") {
+                                            if ((check_car_s - car_s) < braking_distance && state == "GO") {
                                                 previous_state = state;
-                                                state = "break";
+                                                state = "BRAKE";
                                             }
                                         }
                                     }
@@ -211,36 +205,36 @@ int main() {
                                 }
 
 
-                                if (state == "break") {
+                                if (state == "BRAKE") {
 
 //                                    std::cout << "***** " << state << " *****" << "\n";
                                     if (ref_vel < target_speed * 2.24) {
                                         previous_state = state;
-                                        state = "follow";
+                                        state = "FOLLOW";
                                     }
                                     if (best_lane != target_lane && lanechange_timer > BRAKE_REACTION_TIME) {
                                         previous_state = state;
-                                        state = "change lane";
+                                        state = "CHANGE LANE";
                                     }
                                     float d_target = sensor_fusion[target_vehicle][6];
                                     int target_vehicle_lane = (int) (d_target / 4.0);
                                     if (target_vehicle_lane != target_lane) {
                                         previous_state = state;
-                                        state = "go";
+                                        state = "GO";
                                     }
                                     if (sensor_fusion[target_vehicle][5] < car_s) {
                                         previous_state = state;
-                                        state = "go";
+                                        state = "GO";
                                     }
 
                                     ref_vel -= dt * 2.24 * DECELERATION;
 
-                                } else if (state == "go") {
+                                } else if (state == "GO") {
 
 //                                    std::cout << "***** " << state << " *****" << "\n";
                                     if (best_lane != target_lane && lanechange_timer > 4.0) {
                                         previous_state = state;
-                                        state = "change lane";
+                                        state = "CHANGE LANE";
                                     }
                                     ref_vel += dt * 2.24 * ACCELERATION;
                                     if (ref_vel > MAX_SPEED) {
@@ -249,7 +243,7 @@ int main() {
 
                                 }
 
-                                if (state == "follow") {
+                                if (state == "FOLLOW") {
 
 //                                    std::cout << "***** " << state << " vehicle " << target_vehicle << " *****" << "\n";
                                     double target_s = sensor_fusion[target_vehicle][5];
@@ -263,26 +257,26 @@ int main() {
                                         }
                                     } else {
                                         previous_state = state;
-                                        state = "go";
+                                        state = "GO";
                                     }
                                     float d_target = sensor_fusion[target_vehicle][6];
                                     int target_vehicle_lane = (int) (d_target / 4.0);
                                     if (target_vehicle_lane != target_lane) {
                                         previous_state = state;
-                                        state = "go";
+                                        state = "GO";
                                     }
                                     if (target_s < car_s) {
                                         previous_state = state;
-                                        state = "go";
+                                        state = "GO";
                                     }
                                     if (best_lane != target_lane && lanechange_timer > 4.0) {
                                         previous_state = state;
-                                        state = "change lane";
+                                        state = "CHANGE LANE";
                                     }
 
                                 }
 
-                                if (state == "change lane") {
+                                if (state == "CHANGE LANE") {
 
 //                                    std::cout << "***** " << state << " *****" << "\n";
                                     lanechange_timer = 0.0;
@@ -290,12 +284,12 @@ int main() {
                                     if (target_lane < best_lane) {
                                         if (!side_obstacles[target_lane + 1]) {
                                             ++target_lane;
-                                            state = "go";
+                                            state = "GO";
                                         }
                                     } else if (target_lane > best_lane) {
                                         if (!side_obstacles[target_lane - 1]) {
                                             --target_lane;
-                                            state = "go";
+                                            state = "GO";
                                         }
                                     }
 
