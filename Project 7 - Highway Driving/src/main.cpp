@@ -297,6 +297,11 @@ int main() {
 
 //                                std::cout << "========== CYCLE ==========" << "\n";
 
+
+//                                REFERENCE: the following spline implementation has been done by following the Udacity Q&A at the link
+//                                https://www.youtube.com/watch?v=7sI3VHFPP0w&feature=emb_logo&ab_channel=Udacity
+
+
                                 // Create a list of widely spaced (x, y) waypoints, evenly spaced at 30m
                                 // Later we will interpolate these waypoints with a spline and fill it in with more points that control the speed of the vehicle
                                 vector<double> ptsx;
