@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Path_Planning"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/OneDrive/Edo/United Kingdom/Udacity/Self-Driving Car Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project 7 - Highway Driving/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/d/OneDrive/Edo/United Kingdom/Udacity/Self-Driving Car Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project 7 - Highway Driving/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/d/OneDrive/Edo/United Kingdom/Udacity/Self-Driving Car Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project 7 - Highway Driving/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="path_planning">
+				<Option output="/mnt/d/OneDrive/Edo/United Kingdom/Udacity/Self-Driving Car Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project 7 - Highway Driving/cmake-build-debug/path_planning" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/OneDrive/Edo/United Kingdom/Udacity/Self-Driving Car Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project 7 - Highway Driving/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 path_planning"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="path_planning/fast">
+				<Option output="/mnt/d/OneDrive/Edo/United Kingdom/Udacity/Self-Driving Car Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project 7 - Highway Driving/cmake-build-debug/path_planning" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/OneDrive/Edo/United Kingdom/Udacity/Self-Driving Car Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project 7 - Highway Driving/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 path_planning/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/OneDrive/Edo/United\ Kingdom/Udacity/Self-Driving\ Car\ Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project\ 7\ -\ Highway\ Driving/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/OneDrive/Edo/United Kingdom/Udacity/Self-Driving Car Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project 7 - Highway Driving/src/main.cpp">
+			<Option target="path_planning"/>
+		</Unit>
+		<Unit filename="/mnt/d/OneDrive/Edo/United Kingdom/Udacity/Self-Driving Car Nanodegree/GitHubRepo/Udacity-Self-Driving-Car-Nanodegree/Project 7 - Highway Driving/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
