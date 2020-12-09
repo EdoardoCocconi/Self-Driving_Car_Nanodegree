@@ -60,7 +60,7 @@ at line 20 of main.cpp. The rare mistakes made at higher speeds by the autopilot
 Another improvement that has to be made is the implementation of a safety break. In the current implementation the autopilot calculates at what distance the car has to break to reach the desired state with a gentle deceleration (line 182 in main.cpp). Some times, due to cars changing lane and sudden appearance of obstacles, it is instead necessary to calculate how hard the car has to break to avoid a collision. 
 The autopilot is not ready for driving a real car. It is much better than human drivers in most situations but it makes mistakes in rare and unpredictable circumstances. On the other hand, humans are much better at improvising. For future work, changes would have to be made so these unpredictable situations can be replicated once they are individuated. Spotting mistakes without this change would be a very long and tedious job.
 
-###Simulator
+## Simulator
 The simulator used for this project can be downloaded from the [releases tab](https://github.com/udacity/self-driving-car-sim/releases/tag/T3_v1.2).  
 
 To run the simulator on Mac/Linux, first make the binary file executable with the following command:
