@@ -39,7 +39,7 @@ This is the state that governs the steering wheel (lines 278-295 in main.cpp). T
 * **Change target lane:** If there are no obstacles in the way the target lane is moved of one lane towards the optimal lane (lines 285 and 290 in main.cpp). If there are no obstacles and this operation takes place the next state will be the GO state (lines 286 and 291 in main.cpp), otherwise the state machine will go back to whatever was the previous state (line 282 in main.cpp).
 The CHANGE LANE state only lasts for one cycle. The vehicle has to wait 4 seconds to change lane again while accelerating or following (lines 234 and 271 in main.cpp), or 1 second while breaking for safety reasons (BRAKE_REACTION_TIME at line 214 in main.cpp). This allows the car to avoid rapid lane fluctuations.
 
-## RESULTS & FUTURE WORK
+## Results & Future Work
 As a result of this process the highway autopilot can safely and comfortably navigate through the traffic. As shown in the video above and in the red square of the image below, the car can complete more than 6 consecutive laps without braking any of the rules imposed for the success of the project.
 
 <br>
