@@ -37,6 +37,7 @@ This is the state that governs the steering wheel (lines 278-295 in main.cpp). T
 * **Calculate the optimal lane:** The optimal lane is always the lane in which the first car encountered by the vehicle would be the farthest (lines 169-177 and 196-204 in main.cpp), taking into account the speed of the vehicles as well (`s_predicted` at lines 170, 172, and 174 in main.cpp). There are few situations where this is not the optimal solution. For example it doesn't take into account if a car will loose ground due to encountering a slow car on its path. However it is almost always the best choice and greatly simplifies calculations.
 * **Check for obstacles:** The car looks for obstacles in the other lanes (lines 284 and 289 in main.cpp), specifically cars approaching from behind at high speed or cars in front of us that would be within the safety distance (lines 159-167 in main.cpp).
 * **Change target lane:** If there are no obstacles in the way the target lane is moved of one lane towards the optimal lane (lines 285 and 290 in main.cpp). If there are no obstacles and this operation takes place the next state will be the GO state (lines 286 and 291 in main.cpp), otherwise the state machine will go back to whatever was the previous state (line 282 in main.cpp).
+
 The CHANGE LANE state only lasts for one cycle. The vehicle has to wait 4 seconds to change lane again while accelerating or following (lines 234 and 271 in main.cpp), or 1 second while breaking for safety reasons (BRAKE_REACTION_TIME at line 214 in main.cpp). This allows the car to avoid rapid lane fluctuations.
 
 ## Results & Future Work
@@ -57,7 +58,9 @@ sport = true;
 ```
 
 at line 20 of main.cpp. The rare mistakes made at higher speeds by the autopilot are probably a result of the above mentioned constant. For future work every 3.5 in the main.cpp file should be substituted with a physical formula.
+
 Another improvement that has to be made is the implementation of a safety break. In the current implementation the autopilot calculates at what distance the car has to break to reach the desired state with a gentle deceleration (line 182 in main.cpp). Some times, due to cars changing lane and sudden appearance of obstacles, it is instead necessary to calculate how hard the car has to break to avoid a collision. 
+
 The autopilot is not ready for driving a real car. It is much better than human drivers in most situations but it makes mistakes in rare and unpredictable circumstances. On the other hand, humans are much better at improvising. For future work, changes would have to be made so these unpredictable situations can be replicated once they are individuated. Spotting mistakes without this change would be a very long and tedious job.
 
 ## Simulator
