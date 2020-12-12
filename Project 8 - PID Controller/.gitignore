@@ -1,0 +1,10 @@
+.idea/
+tags
+term2_sim_windows/
+LICENSE
+set_git.sh
+install-ubuntu.sh
+install-mac.sh
+.vscode
+build
+.editorconfig
