@@ -149,9 +149,9 @@ This repository contains the projects I completed so far:
 
 ## Project 8: PID Controller ##
 
-- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%207%20-%20Highway%20Driving)
-- [C++ Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%207%20-%20Highway%20Driving/src)
-- [Highway Autopilot Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%207%20-%20Highway%20Driving/src/main.cpp)
+- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%208%20-%20PID%20Controller)
+- [C++ Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%208%20-%20PID%20Controller/src)
+- [Highway Autopilot Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%208%20-%20PID%20Controller/src/main.cpp)
 
 <br/>
 
