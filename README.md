@@ -156,13 +156,13 @@ This repository contains the projects I completed so far:
 <br/>
 
 <div align="center">
-  <img width="640" img src="Assets/HighwayDriving.gif" alt="Highway driving simulation video">
+  <img width="640" img src="Assets/PIDController.gif" alt="Highway driving simulation video">
 </div>
 
 <br>
 
 <p align="center">
-  <b><i>The highway autopilot plans the car's route and speed through the traffic in complete autonomy.</i></b>
+  <b><i>The PID controller steers the wheel to follow a previously calculated path.</i></b>
 </p>
 
 
