@@ -1,7 +1,20 @@
-# CarND-Controls-PID
-Self-Driving Car Engineer Nanodegree Program
+# **PID Controller** 
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
----
+<br>
+
+<div align="center">
+  <img width="640" img src="Assets/PIDController.gif" alt="Highway driving simulation video">
+</div>
+
+<br>
+
+<p align="center">
+  <b><i>The PID controller steers the wheel to follow a previously calculated path.</i></b>
+</p>
+
+<br/>
+
 
 ## Dependencies
 
