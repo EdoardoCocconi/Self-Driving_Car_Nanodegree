@@ -15,6 +15,13 @@
 
 <br/>
 
+## Project Introduction
+The goal of this project is to implement a PID controller so the car can safely complete a lap around a virtual track. The simulation provides the path that the car has to follow, as if the path finding process has already taken place. The path is invisible in the simulation, but as a rule of thumb the car should try to travel as close as possible to the center of the lane. The PID controller is the piece of software in charge of steering the wheel so that the car follows the pre-determined path.
+
+## PID Controller
+The PID controller has 3 components
+
+#### P (Proportional Controller):
 
 ## Dependencies
 
