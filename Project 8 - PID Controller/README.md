@@ -39,6 +39,7 @@ All 3 components of the PID controller are multiplied by constants (kp, ki, and 
 * Increase ki until the steady state error is sufficiently reduced.
 * Increase kd until overshoot and oscillations are eliminated. 
 
+
 The tuning process for this application followed this procedure, except ki has been left at zero because no mechanical system is involved and there is no steady state error to minimise.
 
 the final values are:
