@@ -39,6 +39,7 @@ All 3 components of the PID controller are multiplied by constants (kp, ki, and 
 * Increase ki until the steady state error is sufficiently reduced.
 * Increase kd until overshoot and oscillations are eliminated. 
 
+<br>
 
 The tuning process for this application followed this procedure, except ki has been left at zero because no mechanical system is involved and there is no steady state error to minimise.
 
@@ -99,10 +100,6 @@ using the following settings:
 * indent using spaces
 * set tab width to 2 spaces (keeps the matrices in source code aligned)
 
-## Code Style
-
-Please (do your best to) stick to [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html).
-
 ## Project Instructions and Rubric
 
 Note: regardless of the changes you make, your project must be buildable using
@@ -111,11 +108,6 @@ cmake and make!
 More information is only accessible by people who are already enrolled in Term 2
 of CarND. If you are enrolled, see [the project page](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/f1820894-8322-4bb3-81aa-b26b3c6dcbaf/lessons/e8235395-22dd-4b87-88e0-d108c5e5bbf4/concepts/6a4d8d42-6a04-4aa6-b284-1697c0fd6562)
 for instructions and the project rubric.
-
-## Hints!
-
-* You don't have to follow this directory structure, but if you do, your work
-  will span all of the .cpp files here. Keep an eye out for TODOs.
 
 ## Call for IDE Profiles Pull Requests
 
@@ -145,7 +137,3 @@ that's just a guess.
 
 One last note here: regardless of the IDE used, every submitted project must
 still be compilable with cmake and make./
-
-## How to write a README
-A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
-
