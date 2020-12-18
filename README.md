@@ -11,6 +11,8 @@ The projects I completed are listed below:
 
 ## Project 1: Finding Lane Lines ##
 
+<br/>
+
 <div align="center">
   <img width="640" img src="Assets/FindingLaneLines.gif" alt="Finding lane lines output video">
 </div>
