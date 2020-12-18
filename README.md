@@ -34,10 +34,6 @@ The projects I completed are listed below:
 
 ## Project 2: Advanced Lane Finding ##
 
-- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%202%20-%20Advanced%20Lane%20Finding)
-- [Python lane-finding source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%202%20-%20Advanced%20Lane%20Finding/Lane_Finder_Video.py)
-- [Python camera calibration source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%202%20-%20Advanced%20Lane%20Finding/Camera_Calibration.py)
-
 <br/>
 
 <div align="center">
@@ -52,10 +48,13 @@ The projects I completed are listed below:
 
 <br/>
 
-## Project 3: Traffic Sign Classifier (Machine Learning) ##
+- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%202%20-%20Advanced%20Lane%20Finding)
+- [Python lane-finding source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%202%20-%20Advanced%20Lane%20Finding/Lane_Finder_Video.py)
+- [Python camera calibration source code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%202%20-%20Advanced%20Lane%20Finding/Camera_Calibration.py)
 
-- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%203%20-%20Traffic%20Sign%20Classifier)
-- [Jupyter Notebook](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%203%20-%20Traffic%20Sign%20Classifier/Traffic_Sign_Classifier.ipynb)
+<br/>
+
+## Project 3: Traffic Sign Classifier (Machine Learning) ##
 
 <br/>
 
@@ -71,10 +70,12 @@ The projects I completed are listed below:
 
 <br/>
 
-## Project 4: Behavioral Cloning (Machine Learning) ##
+- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%203%20-%20Traffic%20Sign%20Classifier)
+- [Jupyter Notebook](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%203%20-%20Traffic%20Sign%20Classifier/Traffic_Sign_Classifier.ipynb)
 
-- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%204%20-%20Behavioral%20Cloning)
-- [Python Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%204%20-%20Behavioral%20Cloning/Behavioral_Cloning.py)
+<br/>
+
+## Project 4: Behavioral Cloning (Machine Learning) ##
 
 <br/>
 
@@ -90,11 +91,12 @@ The projects I completed are listed below:
 
 <br/>
 
-## Project 5: Extended Kalman Filter (Sensor Fusion) ##
+- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%204%20-%20Behavioral%20Cloning)
+- [Python Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%204%20-%20Behavioral%20Cloning/Behavioral_Cloning.py)
 
-- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%205%20-%20Extended%20Kalman%20FIlters)
-- [C++ Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%205%20-%20Extended%20Kalman%20FIlters/src)
-- [Kalman Filter Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%205%20-%20Extended%20Kalman%20FIlters/src/main.cpp)
+<br/>
+
+## Project 5: Extended Kalman Filter (Sensor Fusion) ##
 
 <br/>
 
@@ -112,9 +114,11 @@ The projects I completed are listed below:
 
 ## Project 6: Kidnapped Vehicle (Localisation) ##
 
-- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%206%20-%20Kidnapped%20Vehicle)
-- [C++ Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%206%20-%20Kidnapped%20Vehicle/src)
-- [Particle Filter Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%206%20-%20Kidnapped%20Vehicle/src/main.cpp)
+<br/>
+
+- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%205%20-%20Extended%20Kalman%20FIlters)
+- [C++ Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%205%20-%20Extended%20Kalman%20FIlters/src)
+- [Kalman Filter Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%205%20-%20Extended%20Kalman%20FIlters/src/main.cpp)
 
 <br/>
 
@@ -130,11 +134,13 @@ The projects I completed are listed below:
 
 <br/>
 
-## Project 7: Highway Driving (Path Planning) ##
+- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%206%20-%20Kidnapped%20Vehicle)
+- [C++ Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%206%20-%20Kidnapped%20Vehicle/src)
+- [Particle Filter Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%206%20-%20Kidnapped%20Vehicle/src/main.cpp)
 
-- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%207%20-%20Highway%20Driving)
-- [C++ Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%207%20-%20Highway%20Driving/src)
-- [Highway Autopilot Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%207%20-%20Highway%20Driving/src/main.cpp)
+<br/>
+
+## Project 7: Highway Driving (Path Planning) ##
 
 <br/>
 
@@ -152,9 +158,11 @@ The projects I completed are listed below:
 
 ## Project 8: PID Controller ##
 
-- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%208%20-%20PID%20Controller)
-- [C++ Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%208%20-%20PID%20Controller/src)
-- [Highway Autopilot Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%208%20-%20PID%20Controller/src/main.cpp)
+<br/>
+
+- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%207%20-%20Highway%20Driving)
+- [C++ Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%207%20-%20Highway%20Driving/src)
+- [Highway Autopilot Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%207%20-%20Highway%20Driving/src/main.cpp)
 
 <br/>
 
@@ -167,6 +175,12 @@ The projects I completed are listed below:
 <p align="center">
   <b><i>The PID controller steers the wheel to follow a previously calculated path.</i></b>
 </p>
+
+<br/>
+
+- [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%208%20-%20PID%20Controller)
+- [C++ Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%208%20-%20PID%20Controller/src)
+- [Highway Autopilot Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%208%20-%20PID%20Controller/src/main.cpp)
 
 
 <br/>
