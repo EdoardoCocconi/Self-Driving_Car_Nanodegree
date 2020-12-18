@@ -112,13 +112,13 @@ The projects I completed are listed below:
 
 <br/>
 
-## Project 6: Kidnapped Vehicle (Localisation) ##
-
-<br/>
-
 - [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%205%20-%20Extended%20Kalman%20FIlters)
 - [C++ Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%205%20-%20Extended%20Kalman%20FIlters/src)
 - [Kalman Filter Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%205%20-%20Extended%20Kalman%20FIlters/src/main.cpp)
+
+<br/>
+
+## Project 6: Kidnapped Vehicle (Localisation) ##
 
 <br/>
 
@@ -156,13 +156,13 @@ The projects I completed are listed below:
 
 <br/>
 
-## Project 8: PID Controller ##
-
-<br/>
-
 - [Repository](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%207%20-%20Highway%20Driving)
 - [C++ Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%207%20-%20Highway%20Driving/src)
 - [Highway Autopilot Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%207%20-%20Highway%20Driving/src/main.cpp)
+
+<br/>
+
+## Project 8: PID Controller ##
 
 <br/>
 
