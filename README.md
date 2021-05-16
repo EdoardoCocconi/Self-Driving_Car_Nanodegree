@@ -189,13 +189,13 @@ The projects I completed are listed below:
 <br/>
 
 <div align="center">
-  <img width="640" img src="Assets/HighwayDriving.gif" alt="Highway driving simulation video">
+  <img width="640" img src="Assets/SystemIntegration.gif" alt="System integration simulation video">
 </div>
 
 <br>
 
 <p align="center">
-  <b><i>The highway autopilot plans the car's route and speed through the traffic in complete autonomy.</i></b>
+  <b><i>Using ROS nodes, multiple systems have been seamlessly integrated for the correct functioning of the car.</i></b>
 </p>
 
 <br/>
