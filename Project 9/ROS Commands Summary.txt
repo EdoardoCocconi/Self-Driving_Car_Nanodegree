@@ -1,0 +1,233 @@
+COMPUTE GRAPH WITH PUB/SUB ARCHITECTURE: rqt_graph
+
+
+VM
+open a terminal: 	ctrl-Alt-t
+Change language: 	udacity_reset
+Password: 		udacity-nd	udacity'nd at the beginning
+Map to Italian keyboard: 	localectl set'keymap itò localectl set'x11'keymap it
+
+
+source /opt/ros/kinetic/setup.bash
+Inspect the changes that it has made to our environment: 	env
+
+
+RUN TURTLESIM
+run the master process: roscore
+rosrun turtlesim turtlesim_node
+rosrun turtlesim turtle_teleop_key
+
+
+GETTING INFO ABOUT A RUNNING SYSTEM
+rosnode list
+rostopic list
+rostopic info /turtle1/cmd_vel
+clear
+rosmsg show geometry_msgs/Twist
+clear
+rosed geometry_msgs Twist.msg
+rostopic echo /turtle1/cmd_vel
+
+
+CREATE A CATKIN WORKSPACE
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/src
+catkin_init_workspace
+ls -l
+cd ~/catkin_ws
+catkin_make
+ls
+
+
+ADDING A PACKAGE
+cd ~/catkin_ws/src
+git clone https://github.com/udacity/simple_arm_01.git simple_arm
+cd ~/catkin_ws
+catkin_make
+sudo apt-get install ros-kinetic-controller-manager
+catkin_make
+
+
+LAUNCH
+cd ~/catkin_ws
+catkin_make
+source devel/setup.bash
+roslaunch simple_arm robot_spawn.launch
+
+
+INSTALLING MISSING DEPENDENCIES
+rosdep check simple_arm
+rosdep install -i simple_arm
+or
+sudo apt-get install ros-kinetic-gazebo-ros-control
+
+
+CREATE A PACKAGE
+cd ~/catkin_ws/src
+catkin_create_pkg first_package
+
+
+ROS PUBLISHERS
+pub1 = rospy.Publisher("/topic_name", message_type, queue_size=size)
+pub1.publish(message)
+
+
+CREATING A NEW SCRIPT: HELLO WORLD
+cd ~/catkin_ws/src/simple_arm/
+mkdir scripts
+cd scripts
+echo '#!/bin/bash' >> hello
+echo 'echo Hello World' >> hello
+chmod u+x hello
+cd ~/catkin_ws
+catkin_make
+source devel/setup.bash
+rosrun simple_arm hello
+
+
+EDITING THE SCRIPT
+cd ~/catkin_ws/src/simple_arm/scripts/
+nano simple_mover
+
+
+ROS SERVICES
+service = rospy.Service('service_name', serviceClassName, handler)
+service_proxy = rospy.ServiceProxy('service_name', serviceClassName)
+msg = serviceClassNameRequest()
+response = service_proxy(msg)
+
+
+CREATING A NEW SERVICE DEFINITION
+cd ~/catkin_ws/src/simple_arm/
+mkdir srv
+cd srv
+touch GoToPosition.srv
+nano GoToPosition.srv
+
+float64 joint_1
+float64 joint_2
+---
+duration time_elapsed
+
+
+MODIFYING CMakeLists.txt
+nano ~/catkin_ws/src/simple_arm/CMakeLists.txt
+
+
+find_package(catkin REQUIRED COMPONENTS
+        std_msgs
+        message_generation
+)
+
+
+## Generate services in the 'srv' folder
+add_service_files(
+   FILES
+   GoToPosition.srv
+)
+
+
+MODIFYING package.xml
+add the message_generation and message_runtime dependencies
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+
+  <run_depend>controller_manager</run_depend>
+  <run_depend>effort_controllers</run_depend>
+  <run_depend>gazebo_plugins</run_depend>
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>gazebo_ros_control</run_depend>
+  <run_depend>joint_state_controller</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>xacro</run_depend>
+
+
+BUILDING THE PACKAGE
+cd ~/catkin_ws
+catkin_make
+cd devel/lib/python2.7/dist-packages
+ls
+
+env | grep PYTHONPATH
+
+
+CREATING A NEW EMPTY SCRIPT
+cd ~/catkin_ws
+cd src/simple_arm/scripts
+touch arm_mover
+chmod u+x arm_mover
+nano arm_mover
+
+
+LAUNCH AGAIN
+cd ~/catkin_ws
+catkin_make
+source devel/setup.bash
+roslaunch simple_arm robot_spawn.launch
+
+
+VIEW THE CAMERA
+rqt_image_view /rgb_camera/image_raw
+
+
+CALL A SERVICE FROM THE COMMAND LINE
+cd ~/catkin_ws/
+source devel/setup.bash
+rosservice call /arm_mover/safe_move "joint_1: 1.57
+joint_2: 1.57"
+
+
+CHANGE PARAMETER FROM COMMAND LINE
+rosparam set /arm_mover/max_joint_2_angle 1.57
+
+
+ROS SUBSCRIBERS
+sub1 = rospy.Subscriber("/topic_name", message_type, callback_function)
+
+
+CREATE LOOK-AWAY NODE
+cd ~/catkin_ws
+cd src/simple_arm/scripts
+touch look_away
+chmod u+x look_away
+
+
+UPDATING THE LAUNCH FILE
+add to robot_spawn.launch in ~/catkin_ws/src/simple_arm/launch the following lines:
+<!-- The look away node -->
+  <node name="look_away" type="look_away" pkg="simple_arm"/>
+Change max_joint_2_angle to 1.57
+
+
+POINT THE ARM TOWARDS THE SKY AND SEE WHAT HAPPENS
+rosservice call /arm_mover/safe_move "joint_1: 0
+joint_2: 0"
+
+
+LOG FILES
+can be found in ~/.ros/log or ROS_ROOT/log
+If roscore is running:
+roscd log
+
+<!-- The look away node -->
+  <node name="look_away" type="look_away" pkg="simple_arm" output="screen"/>
+
+if output is set to screen stdout will be displayed on the screen as well
+
+
+-------------- PROJECT --------------
+
+LAUNCH
+cd /media/sf_Project_9_-_System_Integration/ros
+catkin_make
+source devel/setup.sh
+roslaunch launch/styx.launch
+
+cd /home/student/CarND-Capstone/ros
+catkin_make
+source devel/setup.sh
+roslaunch launch/styx.launch
+
