@@ -182,6 +182,27 @@ The projects I completed are listed below:
 - [C++ Source Code](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/tree/master/Project%208%20-%20PID%20Controller/src)
 - [Highway Autopilot Main Function](https://github.com/EdoardoCocconi/Udacity-Self-Driving-Car-Nanodegree/blob/master/Project%208%20-%20PID%20Controller/src/main.cpp)
 
+<br/>
+
+## Project 9: System Integration ##
+
+<br/>
+
+<div align="center">
+  <img width="640" img src="Assets/HighwayDriving.gif" alt="Highway driving simulation video">
+</div>
+
+<br>
+
+<p align="center">
+  <b><i>The highway autopilot plans the car's route and speed through the traffic in complete autonomy.</i></b>
+</p>
+
+<br/>
+
+- [Repository](https://github.com/EdoardoCocconi/Self-Driving_Car_Nanodegree/tree/master/Project%209)
+- [ROS](https://github.com/EdoardoCocconi/Self-Driving_Car_Nanodegree/tree/master/Project%209/ros)
+- [Python ROS Nodes](https://github.com/EdoardoCocconi/Self-Driving_Car_Nanodegree/tree/master/Project%209/ros/src)
 
 <br/>
 <br/>
